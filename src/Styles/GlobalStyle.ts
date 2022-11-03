@@ -2,7 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
     :root{
-        --background: ##3D5A73;
+        --background: #343440;
+        --background2: #5F86A5;
         --purple-black: #5A0E5C;
         --purple-light: #A84088;
         --white: #f5f5f5;
@@ -28,6 +29,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body, html{
+        background-color: var(--background);
         font-size: 16px;
     }
 `
