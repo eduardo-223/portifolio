@@ -79,7 +79,8 @@ export const Navbar = styled.nav<NavbarProps>`
         margin-top: 5rem;
         padding-left: 10px;
         color: var(--white);
-        width: 40%;
+        width: 60%;
+        height: 50px;
         font-size: 2.2rem;
         margin-bottom: 8px;
         transition: ease-in-out 200ms;
