@@ -7,8 +7,7 @@ export const HeaderComponent = () => {
   return (
     <Header>
       <h2>
-        <span className="caracter">&lt;</span> Eduardo <span>Rangel</span>
-        <span className="caracter"> &frasl; &gt;</span>
+        <span className="caracter">E</span>duardo <span>Rangel</span>
       </h2>
       <MenuBuger open={open} onClick={() => setOpen(!open)} />
       <Navbar open={open}>

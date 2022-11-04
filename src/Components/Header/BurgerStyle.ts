@@ -22,7 +22,7 @@ export const Showburger = styled.ul<ShowBurgerProps>`
   }
 
   li {
-    background-color: ${({ open }) => (open ? "#E0FBFC" : "#A84088")};
+    background-color: ${({ open }) => (open ? "#E0FBFC" : "#8385D1")};
     width: 2rem;
     height: 0.25rem;
     transform-origin: 1px;

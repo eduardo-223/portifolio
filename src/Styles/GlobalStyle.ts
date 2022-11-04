@@ -2,7 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
     :root{
-        --background: #343440;
+        --background: #121216;
+        --background-second: #121016;
         --background2: #5F86A5;
         --purple-black: #5A0E5C;
         --purple-light: #A84088;
@@ -31,5 +32,18 @@ export const GlobalStyles = createGlobalStyle`
     body, html{
         background-color: var(--background);
         font-size: 16px;
+        font-size: var(--Poppins);
     }
-`
+
+    ::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: var(--blue);
+    }
+    ::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+    background-color: var(--blue-light);
+    }
+    ::-webkit-scrollbar-thumb:hover{
+    background-color: var(--text);
+    }
+`;
