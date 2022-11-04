@@ -16,17 +16,6 @@ const moveLeft = keyframes`
 
  `;
 
-const opacity = keyframes`
- 0%{
-     opacity: 0;
-   }
-   50%{
-     opacity: 0.7;
-   }
-   100%{
-     opacity: 0;
-   }
- `;
 
 export const Header = styled.header`
   margin-top: 1.2rem;
@@ -36,22 +25,24 @@ export const Header = styled.header`
   padding: 0 15px;
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--blue-light);
     font-family: var(--Poppins);
-    animation: ${opacity} 3.2s infinite;
+    font-weight: bold;
+    letter-spacing: 2px;
 
     @media (min-width: 720px) {
       font-size: 1.5rem;
     }
 
     span {
-      font-weight: 400;
+      font-weight: 500;
       font-style: italic;
     }
 
     .caracter {
       color: var(--text);
+      font-weight: bolder;
     }
   }
 `;

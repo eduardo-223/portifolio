@@ -1,10 +1,12 @@
-import { Container } from "./style"
+import { Container } from "./style";
 
-export const HomeCp = () =>{
-    return (
-        <Container>
-            <h1>Ola Mundo!</h1>
-            <p>Me chamo Eduardo sou um desenvolvedor Front End</p>
-        </Container>
-    )
-}
+import Typical from "react-typical";
+
+export const HomeCp = () => {
+  return (
+    <Container>
+      <Typical steps={[`Ola Mundo!`, 1500, "Hello World!", 1500]} loop={Infinity} />
+      <h2>Sou Eduardo, desenvolvedor Front End!!</h2>
+    </Container>
+  );
+};
