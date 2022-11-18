@@ -48,6 +48,7 @@ export const Header = styled.header`
 `;
 
 export const Navbar = styled.nav<NavbarProps>`
+z-index: 2;
   ul {
     animation: ${moveLeft} 550ms ease-out;
     display: flex;
