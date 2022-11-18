@@ -7,14 +7,14 @@ interface ShowBurgerProps {
 export const Showburger = styled.ul<ShowBurgerProps>`
   width: 2rem;
   height: 2rem;
-  position: fixed;
+  position: absolute;
   top: 15px;
   right: 20px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   flex-wrap: nowrap;
-  z-index: 2;
+  z-index: 3;
   transition: ease-in-out 200ms;
 
   @media (min-width: 720px) {
